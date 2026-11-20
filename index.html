@@ -132,6 +132,10 @@
     border-radius: 4px;
     flex-shrink: 0;
   }
+  .mission-img--fit{
+    object-fit: contain;
+    background: var(--panel);
+  }
   .mission-desc{ color:var(--muted); max-width:60ch; margin-top:8px;}
   .mission-tags{ display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; font-size:0.78rem; color:var(--phosphor); font-family:'JetBrains Mono', monospace; }
   .mission-tags span{ border:1px solid var(--line); padding:3px 8px; }
@@ -253,6 +257,7 @@
         <nav class="links">
           <a class="text-link" href="#project-1">PROJECTS</a>
           <a class="text-link" href="#workshop-1">WORKSHOPS</a>
+          <a class="text-link" href="#blog-1">BLOGS</a>
         </nav>
       </div>
       <div class="photo-frame">
@@ -285,6 +290,18 @@
       </div>
     </div>
 
+    <div class="mission" id="project-2">
+      <div class="mission-body">
+        <div class="mission-content">
+          <span class="mission-id">BUILD-02 · 2026</span>
+          <div class="mission-title">Waveforge</div>
+          <p class="mission-desc">Creating a harmonic drive actuator using a BLDC motor.</p>
+          <div class="mission-tags"><span>IN PROGRESS</span></div>
+        </div>
+        <img src="assets/waveforge.jpg" alt="Waveforge harmonic drive actuator" class="mission-img mission-img--fit">
+      </div>
+    </div>
+
   </section>
 
   <section id="workshops">
@@ -297,6 +314,19 @@
       <div class="mission-tags"><span>C</span><span>TINKERCAD</span><span>ONSHAPE</span></div>
       <div class="mission-links">
         <a href="https://sravjti.in/activities/events" target="_blank" rel="noopener">SOURCE</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="blogs">
+    <h2>blogs</h2>
+
+    <div class="mission" id="blog-1">
+      <span class="mission-id">BLOG-01</span>
+      <div class="mission-title">From CAD to its first step</div>
+      <div class="mission-links">
+        <a href="blog-1.html">READ</a>
       </div>
     </div>
 
